@@ -1,8 +1,20 @@
-#button {
+@font-face {
+    font-family: 'justice_league';
+    src: url('justice_league-webfont.woff2') format('woff2'),
+         url('justice_league-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#title {
+	font-family: 'justice_league';
+	text-align: center;
+	font-size: 75px;
+}
+.button {
 	background: black;
 	color: white;
 	margin-left: 10px;
-
 }
 body {
 	background-image: url(hero_background.jpg);
@@ -12,7 +24,7 @@ body {
 	height:200px;
 	width: 200px;
 }
-#input_box {
+#inlineFormInput {
 	margin-left: 30px;
 	margin-top: 30px;
 }
@@ -21,3 +33,7 @@ body {
 	background: black;
 	color: white;
 }
+#gifs {
+
+}
+
