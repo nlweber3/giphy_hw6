@@ -27,9 +27,11 @@ body {
 #inlineFormInput {
 	margin-left: 30px;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 #submit_button {
 	margin-top: 30px;
+	margin-bottom: 30px;
 	background: black;
 	color: white;
 }
